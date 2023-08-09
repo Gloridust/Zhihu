@@ -7,63 +7,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <style> 标签内的内容用于定义CSS样式。CSS是用来控制网页外观的语言。 -->
     <style>
+        /* 设置页面的全局样式 */
         body {
             font-family: Arial, sans-serif;
+            /* 使用 Arial 字体，无衬线字体 */
             margin: 0;
+            /* 去除页面边距 */
             padding: 0;
+            /* 去除页面内边距 */
         }
 
+        /* 页面头部样式 */
         header {
             background-color: #0084FF;
+            /* 背景色为蓝色 */
             color: white;
+            /* 文字颜色为白色 */
             padding: 10px;
+            /* 上下左右内边距为 10px */
             text-align: center;
+            /* 文字居中对齐 */
         }
 
+        /* 导航栏样式 */
         nav {
             background-color: #F6F6F6;
+            /* 背景色为浅灰色 */
             padding: 10px;
+            /* 上下内边距为 10px */
             text-align: center;
+            /* 文字居中对齐 */
         }
 
         nav a {
             color: #333;
+            /* 链接文字颜色为深灰色 */
             text-decoration: none;
+            /* 去除链接下划线 */
             margin: 0 20px;
+            /* 左右外边距为 20px，用于分隔链接 */
         }
 
+        /* 主要内容区域样式 */
         main {
             padding: 20px;
+            /* 上下左右内边距为 20px */
         }
 
+        /* 问题区域样式 */
         .question {
             border: 1px solid #E1E1E1;
+            /* 1px 灰色边框 */
             background-color: white;
+            /* 背景色为白色 */
             padding: 15px;
+            /* 上下左右内边距为 15px */
             margin-bottom: 20px;
+            /* 底部外边距为 20px，用于分隔问题 */
             border-radius: 5px;
+            /* 圆角半径为 5px */
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            /* 阴影效果 */
         }
 
         .question h3 {
             margin: 0;
+            /* 去除标题的上下外边距 */
             font-size: 18px;
+            /* 标题字体大小为 18px */
         }
 
         .question p {
             margin-top: 10px;
+            /* 上外边距为 10px，用于分隔标题和内容 */
         }
 
+        /* 页脚样式 */
         footer {
             background-color: #333;
+            /* 背景色为深灰色 */
             color: white;
+            /* 文字颜色为白色 */
             text-align: center;
+            /* 文字居中对齐 */
             padding: 10px;
+            /* 上下内边距为 10px */
             position: absolute;
+            /* 绝对定位 */
             bottom: 0;
+            /* 定位在底部 */
             width: 100%;
+            /* 宽度为100% */
         }
     </style>
+
     <!-- <title> 设置网页标题，显示在浏览器的标签页上。</head> 标签结束<head> 部分，<body> 开始网页的主体内容。 -->
     <title>仿知乎主页</title>
 </head>
