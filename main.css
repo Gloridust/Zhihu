@@ -98,3 +98,10 @@ footer {
     /* bottom: 0; */
     margin-top: auto; /* 将页脚推到主要内容的底部 */
 }
+
+footer a{
+    color: #bdbaba;
+    /* 链接文字颜色为深灰色 */
+    text-decoration: none;
+    /* 去除链接下划线 */
+}
