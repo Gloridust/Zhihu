@@ -28,6 +28,9 @@ nav {
     /* 上下内边距为 10px */
     text-align: center;
     /* 文字居中对齐 */
+     position: sticky; /* 使用固定定位 */
+    top: 0; /* 距离视口顶部的距离为0 */
+    z-index: 100; /* 可以添加z-index以确保导航栏始终在顶部 */
 }
 
 nav a {
@@ -41,6 +44,9 @@ nav a {
 
 /* 主要内容区域样式 */
 main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 最小高度占满视口 */
     padding: 20px;
     /* 上下左右内边距为 20px */
 }
@@ -83,10 +89,12 @@ footer {
     /* 文字居中对齐 */
     padding: 10px;
     /* 上下内边距为 10px */
-    position: absolute;
-    /* 绝对定位 */
     bottom: 0;
     /* 定位在底部 */
     width: 100%;
     /* 宽度为100% */
+    /* position: fixed;  */
+    /* 将页脚固定在页面底部 */
+    /* bottom: 0; */
+    margin-top: auto; /* 将页脚推到主要内容的底部 */
 }
