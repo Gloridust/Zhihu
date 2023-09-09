@@ -28,9 +28,12 @@ nav {
     /* 上下内边距为 10px */
     text-align: center;
     /* 文字居中对齐 */
-     position: sticky; /* 使用固定定位 */
-    top: 0; /* 距离视口顶部的距离为0 */
-    z-index: 100; /* 可以添加z-index以确保导航栏始终在顶部 */
+     position: sticky; 
+     /* 使用固定定位 */
+    top: 0; 
+    /* 距离视口顶部的距离为0 */
+    z-index: 100; 
+    /* 可以添加z-index以确保导航栏始终在顶部 */
 }
 
 nav a {
@@ -96,7 +99,8 @@ footer {
     /* position: fixed;  */
     /* 将页脚固定在页面底部 */
     /* bottom: 0; */
-    margin-top: auto; /* 将页脚推到主要内容的底部 */
+    margin-top: auto; 
+    /* 将页脚推到主要内容的底部 */
 }
 
 footer a{
